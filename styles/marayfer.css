@@ -2291,12 +2291,20 @@ textarea.w-select {
 /* ==========================================================================
    Start of custom Webflow CSS
    ========================================================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: #318655;
     font-family: Euclid, sans-serif;
     color: #dfdfdf;
     font-size: 1vw;
     line-height: 1.6;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
@@ -2534,6 +2542,47 @@ blockquote {
     -o-object-fit: cover;
     object-fit: cover;
 }
+
+main {
+    font-family: 'Helvetica Neue', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+.weedingContent {
+    padding: 20px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+footer {
+    font-family: sans-serif;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #efceff;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+footer p {
+    color: #4c9869;
+    margin: 15px 0 10px 0;
+    font-size: 1.2rem;
+    font-weight: 50;
+
+}
+
 
 @media screen and (max-width: 991px) {
     body {
