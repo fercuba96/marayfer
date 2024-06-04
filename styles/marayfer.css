@@ -1820,6 +1820,7 @@ textarea.w-select {
 }
 
 @media (min-width: 768px) {
+
     .w-lightbox-content {
         height: 96vh;
         margin-top: 2vh
@@ -2430,7 +2431,7 @@ blockquote {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    min-height: 100vh;
+    max-height: 700px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
