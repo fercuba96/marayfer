@@ -1705,8 +1705,8 @@ textarea.w-select {
     background-repeat: no-repeat;
     background-position: center;
     cursor: pointer;
-    -webkit-transition: all .6s;
-    transition: all .6s
+    -webkit-transition: all .3s;
+    transition: all .3s
 }
 
 .w-lightbox-left {
@@ -1795,8 +1795,8 @@ textarea.w-select {
     margin-left: -20px;
     border: 5px solid rgba(0, 0, 0, 0.4);
     border-radius: 50%;
-    -webkit-animation: spin 5s infinite linear;
-    animation: spin 5s infinite linear
+    -webkit-animation: spin 0.3s infinite linear;
+    animation: spin 0.3 infinite linear
 }
 
 .w-lightbox-spinner:after {
