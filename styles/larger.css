@@ -5,4 +5,13 @@
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
     }
+
+    .listitems {
+        width: 600px;
+    }
+
+    .weedingContentgift {
+        font-size: 1.3rem;
+    }
+
 }
