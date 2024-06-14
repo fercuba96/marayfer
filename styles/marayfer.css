@@ -2607,7 +2607,7 @@ footer p {
     border-right: 6px solid #7adfe1;
     text-align: center;
     max-width: 400px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    font-family: 'Courier New';
     appearance: none;
 }
 
@@ -2621,7 +2621,7 @@ footer p {
 }
 
 .weedingContentgift {
-    font-family: 'Lucida Sans';
+    font-family: 'Courier New';
     font-size: 1.2rem;
     background: whitesmoke;
     margin: 0;
