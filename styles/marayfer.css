@@ -2680,7 +2680,8 @@ footer p {
 
 .cuentas {
     color: #333333;
-    width: 180px;
+    width: 100%;
+    max-width: 190px;
 }
 
 
