@@ -2679,12 +2679,18 @@ footer p {
 
 .boton {
     color: #222222;
+    border-radius: 5px;
+    padding: 2.5px;
 }
 
 .cuentas {
     color: #333333;
     width: 100%;
     max-width: 190px;
+    margin: 2.5px;
+    padding: 3.7px;
+    border-radius: 11%;
+    border-color: #1c6e56;
 }
 
 
