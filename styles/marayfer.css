@@ -2608,7 +2608,7 @@ footer p {
     text-align: center;
     max-width: 400px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+    appearance: none;
 }
 
 .regalolista:hover {
@@ -2631,6 +2631,7 @@ footer p {
     min-height: 100vh;
     color: #222;
     width: 100%;
+    appearance: none;
 }
 
 .listitems {
