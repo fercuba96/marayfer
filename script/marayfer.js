@@ -30,7 +30,7 @@ function copiartres() {
     document.execCommand('copy');
     body.removeChild(copyFrom);
 }
-
+/*
 function copiarcuatro() {
     var origen = document.getElementById('target5');
     var copyFrom = document.createElement("textarea");
@@ -74,7 +74,7 @@ function copiarsiete() {
     document.execCommand('copy');
     body.removeChild(copyFrom);
 }
-
+*/
 function copiarocho() {
     var origen = document.getElementById('target9');
     var copyFrom = document.createElement("textarea");

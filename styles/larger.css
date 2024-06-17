@@ -18,4 +18,22 @@
         width: 100%;
         max-width: 200px;
     }
+
+    .regresoprin {
+        font-size: large;
+        max-width: 400px;
+    }
+
+    .compromisoprin {
+        width: 400px;
+        height: 320px;
+    }
+
+    picture {
+        margin-left: 50px;
+    }
+
+    .regalolista {
+        height: 80px;
+    }
 }
